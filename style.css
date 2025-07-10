@@ -17,7 +17,7 @@ body {
 }
 
 /* ====== Navbar ====== */
-.navbar {
+.main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,7 +65,7 @@ body {
 }
 
 /* ====== Hero Section ====== */
-.hero-section {
+.intro-Banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -129,11 +129,12 @@ body {
   margin-bottom: 2rem;
   color: var(--primary);
 }
-.services-grid {
+.services-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
+  align-items: center;
 }
 .service-card {
   background: var(--white);
